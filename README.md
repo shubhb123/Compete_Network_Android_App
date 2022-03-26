@@ -12,15 +12,15 @@
 *After login or signup, main screen of the app opens contains buttons of opportunities.*
 *By clicking on buttons, user can navigate through different events.*
 <br>
-<img src="https://github.com/shubhb123/Compete_Network_Android_App/blob/main/compete%20network%20app/Photos/Picture1.jpg" width="300px" height="350px">
+<img src="https://github.com/shubhb123/Compete_Network_Android_App/blob/main/compete%20network%20app/Photos/Picture1.jpg" width="200px" height="350px">
 <br>
 *There is navigation bar which includes profile, filter events, rate us and share buttons.*
-<img src="https://github.com/shubhb123/Compete_Network_Android_App/blob/main/compete%20network%20app/Photos/Picture2.jpg">
+<img src="https://github.com/shubhb123/Compete_Network_Android_App/blob/main/compete%20network%20app/Photos/Picture2.jpg" width="200px" height="350px">
 <br>
 *All the events will be shown in an “All” fragment page.*
 *There will be different tabs of different types of events like hackathons, quizzes, festivals, conferences, competitions, jobs, internships, scholarships, workshops.* 
-<img src="https://github.com/shubhb123/Compete_Network_Android_App/blob/main/compete%20network%20app/Photos/Picture3.jpg">
-<img src="https://github.com/shubhb123/Compete_Network_Android_App/blob/main/compete%20network%20app/Photos/Picture4.jpg">
+<img src="https://github.com/shubhb123/Compete_Network_Android_App/blob/main/compete%20network%20app/Photos/Picture3.jpg" width="200px" height="350px">
+<img src="https://github.com/shubhb123/Compete_Network_Android_App/blob/main/compete%20network%20app/Photos/Picture4.jpg" width="200px" height="350px">
 <br>
 ### CONCLUSION :
 1. In Future we can develop this application for the global access. 
