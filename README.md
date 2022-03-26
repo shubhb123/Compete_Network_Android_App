@@ -9,9 +9,16 @@
 3. This is a platform for the students where they can come together to compete, or work together.
 
 
+*After login or signup, main screen of the app opens contains buttons of opportunities.*
+*By clicking on buttons, user can navigate through different events.*
+<img src="https://github.com/shubhb123/Compete_Network_Android_App/blob/main/compete%20network%20app/Photos/Picture1.jpg">
 
+*There is navigation bar which includes profile, filter events, rate us and share buttons.*
+<img src="compete network app/Photos/Picture2.jpg">
 
-
+*All the events will be shown in an “All” fragment page.*
+*There will be different tabs of different types of events like hackathons, quizzes, festivals, conferences, competitions, jobs, internships, scholarships, workshops.* 
+<img src="compete network app/Photos/Picture3.jpg">
 
 ### CONCLUSION :
 1. In Future we can develop this application for the global access. 
