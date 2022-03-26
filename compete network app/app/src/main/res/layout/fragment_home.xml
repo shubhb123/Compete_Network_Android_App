@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Compete Network connects students and experienced professionals with companies,colleges, and educators globally through innovative challenges, competitions and much more."
+                            android:layout_marginTop="60dp"
+                            android:textColor="@color/black"
+                            android:textSize="17dp"
+                            android:gravity="center"
+                            android:padding="4dp"
+                            android:id="@+id/text1"
+                            android:layout_marginBottom="15dp"
+                            />
+
+                        <TextView
+                            android:layout_width="340dp"
+                            android:layout_height="150dp"
+                            android:text="THOUGHT OF THE DAY"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:background="@drawable/corner_round"
+                            android:backgroundTint="@color/black"
+                            android:layout_gravity="center"
+                            android:id="@+id/thought"
+                            />
+
+                        <TextView
+                            android:id="@+id/texxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="Browse Opportunities"
+                            android:textSize="25dp"
+                            android:layout_marginTop="15dp"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="20dp"/>
+
+                        <Button
+                            android:layout_width="270dp"
+                            android:layout_height="80dp"
+                            android:text="Outside College"
+                            android:textSize="14.2sp"
+                            android:textColor="@color/black"
+                            android:layout_margin="5dp"
+                            android:backgroundTint="@color/white"
+                            android:id="@+id/button1"
+                            app:strokeColor="#000000"
+                            app:strokeWidth='1dp'
+                            android:layout_gravity="center"
+                            />
+                        <Button
+                            android:layout_width="270dp"
+                            android:layout_height="80dp"
+                            android:text="Inside College"
+                            android:textSize="14.2sp"
+                            android:textColor="@color/black"
+                            android:layout_margin="5dp"
+                            android:backgroundTint="@color/white"
+                            android:id="@+id/button2"
+                            app:strokeColor="#000000"
+                            app:strokeWidth='1dp'
+                            android:layout_gravity="center"
+                            />
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="270dp"
+                            android:layout_height="80dp"
+                            android:layout_below="@+id/button2"
+                            android:backgroundTint="@color/white"
+                            android:text="Tech News"
+                            android:textColor="@color/black"
+                            android:textSize="14.2sp"
+                            app:strokeColor="#000000"
+                            app:strokeWidth='1dp'
+                            android:layout_gravity="center"/>
+
+                        <TextView
+                            android:layout_width="340dp"
+                            android:layout_height="150dp"
+                            android:text="Special Swag"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:background="@drawable/corner_round"
+                            android:backgroundTint="@color/black"
+                            android:layout_gravity="center"
+                            android:id="@+id/special"
+                            android:layout_marginTop="15dp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:background="@color/black"
+                            android:layout_marginTop="10dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginTop="20dp"
+                            android:text="Powered By: Compete Network"
+                            android:textSize="20dp"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:layout_margin="20dp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Staff Opportunity Data"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="-60dp"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/oppo"
+                                />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Staff Clg Event Data"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="-40dp"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/clg"
+                                    />
+                        </LinearLayout>
+
+
+                </LinearLayout>
+        </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        app:cardCornerRadius="7dp"
+        android:elevation="5dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="15dp"
+        android:outlineAmbientShadowColor="@color/black"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/comp1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="BrandStorm 2022"
+                android:textColor="@color/black"
+                android:layout_gravity="bottom"
+                android:textSize="18dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/text11"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="CGC Landran"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/text22"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.navbar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Navbar">
+        <activity
+            android:name=".eventwork"
+            android:exported="false" />
+        <activity
+            android:name=".Staff_work"
+            android:exported="false" />
+        <activity
+            android:name=".ClgEvents"
+            android:exported="true" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/Theme.Navbar.NoActionBar" />
+        <activity android:name=".updateprofile" />
+        <activity android:name=".login" />
+        <activity android:name=".signup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavbarActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

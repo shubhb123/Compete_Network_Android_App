@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eventwork">
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Opportunities Event Details"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="300dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_person_24"
+                android:id="@+id/mainimage"
+                android:scaleType="centerCrop"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose"
+                android:layout_gravity="end"
+                android:layout_marginRight="20dp"
+                android:id="@+id/choose"
+                />
+
+            <EditText
+                android:id="@+id/eventname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Event Name"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Registration Link"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date of Event"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Time of Event"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/deadline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Event Deadline(Last Date To Register)"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Region"
+                android:textSize="20sp"
+
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/radio_pirates"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Online"
+                    android:layout_marginLeft="20dp"
+                    />
+                <RadioButton
+                    android:id="@+id/radio_ninjas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Offline"
+                    android:layout_marginLeft="20dp"
+                    />
+            </RadioGroup>
+            <EditText
+                android:id="@+id/venue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Venue of Event"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:hint="Description of Event"
+                android:textAlignment="viewStart"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Contact the Organizers"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rewards"
+                android:hint="Rewards and Prizes"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Data"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:id="@+id/add"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
